@@ -4,10 +4,10 @@
 Team Member Names:
 </p>
 <ul>
-<li> Astha Jaiswal</li>
-<li>Lavanya Agarwal</li>
-<li>Yashshree</li>
-<li>Neelam</li>
+<li> Astha Jaiswal(https://github.com/asthajaiswal312)</li>
+<li>Lavanya Agarwal(https://github.com/Lava2403)</li>
+<li>Yashshree(https://github.com/YASHSHREEE)</li>
+<li>Neelam(https://github.com/3432neelam)</li>
 </ul>
 </p>
 <p>
