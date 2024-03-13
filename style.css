@@ -1,134 +1,282 @@
 *{
     margin: 0;
     padding: 0;
+    /* padding-top: 0px; */
+    font-family: sans-serif;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    color: black;
-    font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo1 img{
-    width: 100px;
-}
-.bar{
-    display: none;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 0 7vmin;
-    background-color: rgb(248,232,217 );
-    border-bottom: 2px solid rgb(252,196,124 );
-    box-shadow: 0 2px 20px rgb(253,124,124);
-
-}
-header ul{
-    display: flex;
-    align-items: center;
-}
-
-header ul li:hover{
-    color: rgb(253,57,8)
-
-}
-
-.nav ul li{
-    padding: 0 15px;
-    font-size: 14px;
-    font-weight: bold;
-
-}
-.account{
-    flex:0.1;
-}
-.account ul{
-    display: flex;
-    justify-content: end;
-}
-.account ul li{
-    padding: 0 15px;
-    font-size: 18px;
-}
-.bar i:hover{
-    color:rgb(253,57,8);
-}
-.search{
-    display: none;
-    width: 200px;
-    justify-content: center;
-}
-.search input{
+.container{
+    height: 100vh;
     width: 100%;
-    outline: none;
-    border: none;
-    padding: 5px;
-}
-.search icon{
-    background-color: rgb(255,210,210);
-    display: block;
-    padding: 4px 5px;
-    cursor: pointer;
+    background-image: url(images/bg2.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 100%;
 }
 
-   
-.home{
-    background-color: rgb(248,232,217 );
-    padding: 0 7vw;
-}       
-.main_slide{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap-reverse;
+/* Style for the header */
+.header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding top and bottom */
 }
-.main_slide div:nth-child(2){
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+
+/* Container to center the content */
+.container2 {
+    max-width: 1200px; /* Maximum width of content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding to the sides */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out content */
+    align-items: center; /* Center items vertically */
 }
-.main_slide div:nth-child(1){
-    padding-top: 20px;
-    flex: 1;
+
+/* Style for the logo */
+.logo {
+    font-size: 24px;
+}
+
+/* Style for the navigation */
+.nav ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add margin between list items */
+}
+
+.nav ul li a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effect for links */
+.nav ul li a:hover {
+    color: #ffd700; /* Change text color on hover */
+}
+
+
+/* Update font for the logo */
+.logo {
+    font-family: 'Sacramento', cursive; /* Use Sacramento font */
+    font-size: 50px; /* Adjust font size */
+}
+
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 50px; */
+  }
+  
+/* Update styles for the header */
+.header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px 0; /* Padding top and bottom */
+    text-align: center; /* Center-align text */
+}
+
+.container2{
+    height: 40px;
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Spacing between divs */
+    
+    margin: 0 auto; /* Centering the container */
+}
+
+/* Style for the content divs */
+.content {
+    width: calc(50% - 20px); /* 50% width minus margin */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 50px; /* Spacing between divs and margins */
+    text-align: center; /* Center-align content */
+    opacity: 40%;
+    height: 75%;
+}
+
+
+.welcome{
+    font-family: "Yusei Magic",cursive;
+    font-weight: 1000;
     font-size: 30px;
 }
-.main_slide div:nth-child(1) p{
-    font-size: 13px;
-    padding: 20px 0;
+
+.yusei-magic-regular {
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+  
+  .btn{
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition : 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  opacity: 80%;
+  }
+  
+  .btn:hover{
+  
+  transition : 1000ms;
+  padding: 10px 50px;
+  transform : translateY(-0px);
+  background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+  color: #0066cc;
+  border: solid 2px #0066cc;
+  opacity: 80%;
+
+  }
+
+
+/* Style for the buttons */
+.buttons {
+    display: flex;
+    flex-direction: column; /* Buttons stacked vertically */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+    height: 30%; /* Occupy full height of the parent */
+    /* border: 2px solid black ; */
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 200px; 
+    position: absolute;
+    width: 30%;
+    margin-left: 60%;
+    margin-top: 20%;       
+}
+
+.buttons button {
+    margin: 10px; /* Add spacing between buttons */
+    opacity: 1;
+}
+
+
+.formbackground{
+    width: 100%; /* Maximum width of content */
+    height: 100vh;
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding to the sides */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out content */
+    align-items: center; /* Center items vertically */
+    border: 1px solid black;
+    background-image: url(images/bg2.jpeg);
+    background-size: cover;
+    opacity: 70%;
+    display: flexbox;
+}
+
+.login-form{
+    border: 1px solid black;
+    width: 500px;
+    height: 450px;
+    /* margin-top: 200px; */
+    position: absolute;
 
 }
-.main_slide div:nth-child(1) span{
-    color: rgb(253,57,8);
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-color: rgb(253,176,34);
+
+/* Style for the login form */
+.login-form {
+    /* display: none; Initially hide the login form */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.red_btn{
+
+.login-form h2 {
+    margin-bottom: 10px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
     cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
     margin-top: 20px;
-    width: 160px;
-    font-weight: bold;
-    color: aliceblue;
-    line-height: 50px;
-    background-color: rgb(253,77,8);
-    border-radius: 1px solid rgb(253,77,8);
-    box-shadow: 0 10px 15px rgb(250,120,69);
-    transition: all 0.2s;
-}
-.red_btn i{
-    color: white;
-    transition: 0.2s;
-
+    align-items: center;
+    text-align: center;
 }
 
-.red_btn:hover{
-    background-color: white;
-    box-shadow: 0 2px 15px rgb(250,120,69);
-    border: 1px solid rgb(253,77,8);
-    color: rgb(253,77,8);
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
 }
-.red_btn:hover i{
-    color: rgb(253,77,8);
+
+/* Style for the footer content */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for the address and contact sections */
+.address,
+.contact {
+    width: 45%;
+}
+
+.address h3,
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+.address p,
+.contact p {
+    margin-bottom: 5px;
 }
