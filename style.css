@@ -1,19 +1,175 @@
+
+body{
+    background-color: rgb(16, 17, 17);
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_1280.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+#logo1{
+    
+    height:300px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    
+}
+#PARICHAY{height: 30PX;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 45PX;
+    font-family:Madimi One;
+    color: rgb(134, 78, 11);
+
+}
+#humsb{margin-top: 110PX;
+    display: flex;
+    height: 480px;
+    justify-content: center;
+}
+#ctt{
+    color: rgb(97, 44, 3);
+    font-family:cursive;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 90px;
+    margin-left: 120px;
+}
+        #log{
+    /* border:2px solid rgb(3, 3, 3); */
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    margin-left: 140px;
+    
+}
+#dumbdump{
+    /* border:2px solid red; */
+    height:300px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+#dtax{
+    color: rgb(97, 44, 3);
+    font-family:cursive;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 90px;
+}
+#ddpic{
+    
+    border-radius: 50%; 
+    height: 280px;
+    width: 280px;
+    margin-left: 80px;  
+}
+#ddpic img{
+    
+    border-radius: 50%; 
+    height: 280px;
+    width: 280px;
+
+}
+.angkor-regular {
+  font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* font */
+
+.content{
+
+width:600px;
+
+}
+.intro{
+    
+    width:600px;
+
+}
+
+
+#log img{
+    
+    border-radius: 50%;
+    height: 280px;
+    width: 280px;
+    
+}
+
+
+.madimi-one-regular {
+font-family: "Madimi One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+#lavanya{
+    height: 200px;
+    width: 200px;
+    margin: 50px 40px 0 75px;
+    border-radius: 50%;
+}
+#yash{
+    height: 200px;
+    width: 200px;
+    margin: 50px 40px 0 75px;
+    border-radius: 50%;
+}
+#neelam{
+    height: 200px;
+    width: 200px;
+    margin: 50px 40px 0 75px;
+    border-radius: 50%;
+}
+#astha{
+    height: 200px;
+    width: 200px;
+    margin: 50px 40px 0 75px;
+    border-radius: 50%;
+    
+
+
+}
+#astha img{height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+#yash img{height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+#neelam img{height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+#lavanya img{height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bastha{
+    height: 400px;
+    margin-top: 40px;
+
+}
+#castha{
+    text-align: center;
+    font-family:cursive;
+    color: rgb(13, 14, 13);
+    margin-top: 10PX
+
+}
 *{
     margin: 0;
     padding: 0;
     /* padding-top: 0px; */
     font-family: sans-serif;
     box-sizing: border-box;
-}
-
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(images/bg2.jpeg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    opacity: 100%;
 }
 
 /* Style for the header */
@@ -83,170 +239,6 @@
 
 .container2{
     height: 40px;
-}
-
-/* Style for the container */
-.container {
-    display: flex;
-    justify-content: space-between; /* Spacing between divs */
-    
-    margin: 0 auto; /* Centering the container */
-}
-
-/* Style for the content divs */
-.content {
-    width: calc(50% - 20px); /* 50% width minus margin */
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 50px; /* Spacing between divs and margins */
-    text-align: center; /* Center-align content */
-    opacity: 40%;
-    height: 75%;
-}
-
-
-.welcome{
-    font-family: "Yusei Magic",cursive;
-    font-weight: 1000;
-    font-size: 30px;
-}
-
-.yusei-magic-regular {
-    font-family: "Yusei Magic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
-  
-  .btn{
-  
-  font-family: Roboto, sans-serif;
-  font-weight: 0;
-  font-size: 14px;
-  color: #fff;
-  background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
-  padding: 10px 30px;
-  border: 2px solid #0066cc;
-  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-  border-radius: 50px;
-  transition : 1000ms;
-  transform: translateY(0);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-  opacity: 80%;
-  }
-  
-  .btn:hover{
-  
-  transition : 1000ms;
-  padding: 10px 50px;
-  transform : translateY(-0px);
-  background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
-  color: #0066cc;
-  border: solid 2px #0066cc;
-  opacity: 80%;
-
-  }
-
-
-/* Style for the buttons */
-.buttons {
-    display: flex;
-    flex-direction: column; /* Buttons stacked vertically */
-    justify-content: center; /* Center buttons horizontally */
-    align-items: center; /* Center buttons vertically */
-    height: 30%; /* Occupy full height of the parent */
-    /* border: 2px solid black ; */
-    margin-top: 40px;
-    width: 50%;
-    margin-left: 200px; 
-    position: absolute;
-    width: 30%;
-    margin-left: 60%;
-    margin-top: 20%;       
-}
-
-.buttons button {
-    margin: 10px; /* Add spacing between buttons */
-    opacity: 1;
-}
-
-
-.formbackground{
-    width: 100%; /* Maximum width of content */
-    height: 100vh;
-    margin: 0 auto; /* Center the container */
-    padding: 0 20px; /* Add padding to the sides */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space out content */
-    align-items: center; /* Center items vertically */
-    border: 1px solid black;
-    background-image: url(images/bg2.jpeg);
-    background-size: cover;
-    opacity: 70%;
-    display: flexbox;
-}
-
-.login-form{
-    border: 1px solid black;
-    width: 500px;
-    height: 450px;
-    /* margin-top: 200px; */
-    position: absolute;
-
-}
-
-/* Style for the login form */
-.login-form {
-    /* display: none; Initially hide the login form */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.login-form h2 {
-    margin-bottom: 10px;
-}
-
-.login-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.login-form input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.login-form input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.login-form input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-.login-form p {
-    margin-top: 20px;
-    align-items: center;
-    text-align: center;
 }
 
 
