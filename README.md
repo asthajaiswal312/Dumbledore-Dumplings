@@ -24,6 +24,8 @@ Real-time tracking
 HTML<br>
 CSS<br>
 Bootstrap<br>
-JavaScript
+JavaScript<br>
+PHP<br>
+MySQL
 </p>
 
