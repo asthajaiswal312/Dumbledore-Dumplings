@@ -5,20 +5,96 @@ body {
     /* background-color: #777474; */
     background-image: url(./images/background2.webp);
     background-size:contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     
 }
+.blue_btn {
+    background-color: blue; /* Set background color to blue */
+    color: white; /* Set text color to white */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
 
-header {
+.blue_btn:hover {
+    background-color: darkblue; /* Change background color on hover */
+}
+.heart-button {
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ff5cbb; /* Pink color for heart */
+     border: none;
+    
+}
+
+
+.heart-button:hover {
+    color: #ff0059; /* Darker pink color on hover */
+}
+
+
+.logo {
+    font-size: 24px;
+}
+
+/* Style for the navigation */
+.nav ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add margin between list items */
+}
+
+.nav ul li a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Hover effect for links */
+.nav ul li a:hover {
+    color: #ffd700; /* Change text color on hover */
+}
+
+
+/* Update font for the logo */
+.logo {
+    font-family: 'Sacramento', cursive; /* Use Sacramento font */
+    font-size: 50px; /* Adjust font size */
+}
+
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 50px; */
+  }
+  
+/* Update styles for the header */
+.header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 1px 0; /* Padding top and bottom */
+    text-align: center; /* Center-align text */
+}
+
+
+
+header h2{
     background-color: #000000;
-    color: #fff;
+     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 10px;
+    margin-top: 0px;
 }
 
 section {
-    max-width: 400px;
+    /* max-width: 600px; */
     margin: 20px;
     
 }
@@ -30,12 +106,14 @@ section {
     flex: 1;
     border: 1px solid #ddd;
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
+    margin-right: 50px;
     height: 25%;
+    width:200px;
+
     
 }
 .menu-item2{
@@ -46,7 +124,7 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
+    margin-right: 50px;
     height: 50%;
 }
 .menu-item3{
@@ -57,8 +135,8 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 50%;
+    margin-right: 50px;
+    height: 300px;
 }
 .menu-item4{
     flex: 1;
@@ -69,8 +147,8 @@ section {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-right: 5px;
-    height: 250px;
-    width: 120px;
+    height: 300px;
+    width: 300px;
     
 }
 .menu-item5{
@@ -81,8 +159,9 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 50%;
+    margin-right: 50px;
+    height: 300px;
+    width: 80px;
 }
 .menu-item6{
     flex: 1;
@@ -92,8 +171,8 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 250px;
+    margin-right: 50px;
+    height: 300px;
     width: 120px;
 }
 .menu-item7{
@@ -104,8 +183,8 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 50%;
+    margin-right: 50px;
+    height: 300px;
 }
 .menu-item8{
     flex: 1;
@@ -115,8 +194,8 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 50%;
+    margin-right: 50px;
+    height: 300px;
 }
 .menu-item9{
     flex:1;
@@ -126,8 +205,9 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 350px;
+    margin-right: 60px;
+    height: 280px;
+    width: 150px;
 }
 .menu-item10{
     flex: 1;
@@ -137,8 +217,9 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 350px;
+    margin-right: 60px;
+    height: 340px;
+    width: auto;
 }
 .menu-item11{
     flex: 1;
@@ -148,8 +229,8 @@ section {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 5px;
-    height: 50%;
+    margin-right: 50px;
+    height: 340px;
 }
 .menu-item1 img{
     max-width: 100%;
@@ -165,23 +246,24 @@ section {
 }
 .menu-item3 img{
     /* max-width: 100%; */
-    height: 100%;
+    height: 100px;
     border-radius: 5px;
     margin-bottom: 10px;
-    width: 100px;
+    width: 130px;
 }
 .menu-item4 img{
     /* max-width: 100%; */
-    height:100px;
+    height:130px;
     border-radius: 5px;
     margin-bottom: 10px;
-    width: 100px;
+    width: 130px;
 }
 .menu-item5 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    height: 100px;
     border-radius: 5px;
     margin-bottom: 10px;
+    width: 150px;
 }
 .menu-item6 img{
      /* max-width: 100%;  */
@@ -191,23 +273,25 @@ section {
     width:100px;
 }
 .menu-item7 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    height: 120px;
     border-radius: 5px;
     margin-bottom: 10px;
+    width: 120px;
 }
 .menu-item8 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    height: 130px;
     border-radius: 5px;
     margin-bottom: 10px;
+    width: 110px;
 }
 .menu-item9 img{
     /* max-width: 100%; */
     height: 150px;
     border-radius: 5px;
     margin-bottom: 10px;
-    width: 150px;
+    width: 170px;
     
 }
 .menu-item10 img{
@@ -218,10 +302,11 @@ section {
     width:150px;
 }
 .menu-item11 img{
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%; */
+    height: 150px;
     border-radius: 5px;
     margin-bottom: 10px;
+    width: auto;
 }
 
 
