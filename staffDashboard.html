@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Canteen Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300;400;800&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yusei+Magic&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom CSS styles */
+        body {
+            background-color: #f8f9fa;
+            background-image: url(https://cdn.pixabay.com/photo/2015/11/08/05/58/scroll-1033117_1280.jpg);
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .navbar-brand{
+            font-family: "Sacramento",cursive;
+            font-size: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Wizard's Feast</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="mt-4 mb-4" style="font-family: 'Ariel',cursive;">Welcome to Canteen Dashboard</h1>
+        
+        <!-- Menu Management Section -->
+<div class="card">
+    <h5 class="card-header">Menu Management</h5>
+    <div class="card-body">
+        
+        <button class="btn btn-secondary mr-2" data-toggle="collapse" data-target="#manageItemsSection">Manage Items</button>
+        <button class="btn btn-info mr-2" data-toggle="collapse" data-target="#currentMenuSection">Current Menu</button>
+
+
+        <!-- Manage Items Section (Initially Collapsed) -->
+<div id="manageItemsSection" class="collapse">
+    <!-- Display menu items for management -->
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Menu Item Name</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Delete</button>
+                        <button class="btn btn-primary btn-sm">Edit</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Delete</button>
+                        <button class="btn btn-primary btn-sm">Edit</button>
+                    </td>
+                </tr>
+                <!-- Add more rows for additional menu items -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+         <!-- Current Menu Section (Initially Collapsed) -->
+<div id="currentMenuSection" class="collapse">
+    <!-- Display current menu details -->
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Menu Item Name</th>
+                    <th>Price</th>
+                    <th>Stock Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td><button class="btn btn-outline-secondary btn-sm" disabled>Out of Stock</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td><button class="btn btn-success btn-sm">In Stock</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td><button class="btn btn-outline-secondary btn-sm" disabled>Out of Stock</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td><button class="btn btn-success btn-sm">In Stock</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td><button class="btn btn-outline-secondary btn-sm" disabled>Out of Stock</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td><button class="btn btn-success btn-sm">In Stock</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td><button class="btn btn-outline-secondary btn-sm" disabled>Out of Stock</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td><button class="btn btn-success btn-sm">In Stock</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td><button class="btn btn-outline-secondary btn-sm" disabled>Out of Stock</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td><button class="btn btn-success btn-sm">In Stock</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Burger</td>
+                    <td>$5.00</td>
+                    <td><button class="btn btn-outline-secondary btn-sm" disabled>Out of Stock</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pizza</td>
+                    <td>$8.00</td>
+                    <td><button class="btn btn-success btn-sm">In Stock</button></td>
+                </tr>
+                <!-- Add more rows for additional menu items -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+    </div>
+</div>
+
+        
+        <!-- Order Management Section -->
+<div class="card">
+    <h5 class="card-header">Order Management</h5>
+    <div class="card-body">
+        <a href="#" class="btn btn-success mr-2">Accept Order</a>
+        <button class="btn btn-warning mr-2" data-toggle="collapse" data-target="#pendingOrdersSection">Pending Orders</button>
+        <button class="btn btn-info mr-2" data-toggle="collapse" data-target="#completedOrdersSection">Completed Orders</button>
+
+        <!-- Collapsible Pending Orders Section -->
+        <div id="pendingOrdersSection" >
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer Name</th>
+                            <th>Items Ordered</th>
+                            <th>Total Amount</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>Burger, Pizza</td>
+                            <td>$15.00</td>
+                            <td>Pending</td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="accept">Accept</option>
+                                    <option value="reject">Reject</option>
+                                    <option value="complete">Complete</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <!-- Add more rows for other pending orders -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+         <!-- Completed Orders Section (Initially Collapsed) -->
+         <div id="completedOrdersSection" class="collapse">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer Name</th>
+                            <th>Items Ordered</th>
+                            <th>Total Amount</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Completed orders table rows -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+<!-- Notifications Section -->
+<div class="card mt-4">
+    <h5 class="card-header">Notifications</h5>
+    <div class="card-body">
+        <!-- Notification items -->
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Notification Title</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Notification message goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </a>
+            <!-- Add more notification items -->
+        </div>
+    </div>
+</div>
+
+
+        
+    </div>
+
+
+
+
+    <!--footer here-->
+    <footer class="footer bg-dark text-white mt-5">
+        <div class="container text-center">
+            &copy; 2024 Dumbledore Dumplings. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
